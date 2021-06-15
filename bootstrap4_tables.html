@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Exemplo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Uma mesa básica bootstrap 4 tem um estofamento leve e divisórias horizontais.
+            A classe adiciona estilo básico a uma tabela:.table-->
+        <div class="container">
+            <h2> Tabela Básica </h2>
+            <p> A classe .table adiciona estilo básico (preenchimento leve e divisórias horizontais) a uma mesa: </p>
+            <table class = "table">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- A classe adiciona listras de zebra a uma mesa:.table-striped-->
+        <div class="container">
+            <h2> Linhas listradas </h2>
+            <p> A classe .table-stripes adiciona listras de zebra a uma tabela: </p>           
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- A classe adiciona bordas em todos os lados da tabela e células:.table-bordered-->
+        <div class="container">
+            <h2> Linhas listradas </h2>
+            <p> A classe .table-stripes adiciona listras de zebra a uma tabela: </p>           
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- A classe adiciona um efeito de foco (cor de fundo cinza)
+             nas linhas da tabela: .table-hover-->
+        <div class="container">
+            <h2> Linhas flutuantes </h2>
+            <p> A classe .table-hover permite um estado de foco (fundo cinza ao passar o mouse) nas linhas da tabela: </p>           
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- A classe adiciona um fundo preto à mesa:‎.table-dark-->
+        <div class="container">
+            <h2> Mesa Preta / Escura </h2>
+            <p> A classe .table-dark adiciona um fundo preto à tabela: </p>            
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Combine e crie uma mesa listrada escura:.table-dark.table-striped-->
+        <div class="container">
+            <h2> Mesa listrada escura </h2>
+            <p> Combine .table-dark e .table-listrado para criar uma mesa escura e listrada: </p>       
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- A classe adiciona um efeito de foco (cor de fundo cinza) nas linhas da tabela: .table-hover-->
+        <div class="container">
+            <h2> Mesa Escura Hoverable </h2>
+             <p> A classe .table-hover adiciona um efeito de foco (cor de fundo cinza) nas linhas da tabela: </p>          
+             <table class="table table-dark table-hover">
+                 <thead>
+                     <tr>
+                         <th> Nome </th>
+                         <th> Sobrenome </th>
+                         <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                     <tr>
+                         <td>Mary</td>
+                         <td>Moe</td>
+                         <td>mary@example.com</td>
+                     </tr>
+                     <tr>
+                         <td>July</td>
+                         <td>Dooley</td>
+                         <td>july@example.com</td>
+                     </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- A classe remove as bordas da tabela: .table-borderless-->
+        <div class="container">
+            <h2>Borderless Table</h2>
+            <p>The .table-borderless class removes borders from the table:</p>            
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- As classes contextuais podem ser usadas
+             para colorir toda a tabela (), as linhas de mesa () ou células de mesa ().<table><tr><td>-->
+        <div class="container">
+            <h2> Classes contextuais </h2>
+            <p> As classes contextuais podem ser usadas para colorir a tabela, as linhas da tabela ou as células da tabela. As classes que podem ser usadas são: .table-primary, .table-success, .table-info, .table-warning, .table-danger, .table-active, .table-secondary, .table-light e .table -escuro: </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Default</td>
+                    <td>Defaultson</td>
+                    <td>def@somemail.com</td>
+                </tr>      
+                <tr class="table-primary">
+                    <td>Primary</td>
+                    <td>Joe</td>
+                    <td>joe@example.com</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Success</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Danger</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Info</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>Warning</td>
+                    <td>Refs</td>
+                    <td>bo@example.com</td>
+                </tr>
+                <tr class="table-active">
+                    <td>Active</td>
+                    <td>Activeson</td>
+                    <td>act@example.com</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Secondary</td>
+                    <td>Secondson</td>
+                    <td>sec@example.com</td>
+                </tr>
+                <tr class="table-light">
+                    <td>Light</td>
+                    <td>Angie</td>
+                    <td>angie@example.com</td>
+                </tr>
+                <tr class="table-dark text-dark">
+                    <td>Dark</td>
+                    <td>Bo</td>
+                    <td>bo@example.com</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- A classe adiciona um fundo preto aos cabeçalhos de mesa, 
+            e a classe adiciona um fundo cinza aos cabeçalhos de mesa:.thead-dark.thead-light-->
+        <div class="container">
+            <h2> Cores da cabeça da mesa </h2>
+            <p> A classe .thead-dark adiciona um plano de fundo preto aos cabeçalhos da tabela, e a classe .thead-light adiciona um plano de fundo cinza aos cabeçalhos da tabela: </p>
+            <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                    <th> Nome </th>
+                    <th> Sobrenome </th>
+                    <th> Email </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead class="thead-light">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>  
+        <!-- A classe torna a mesa menor cortando o preenchimento celular ao meio:.table-sm-->
+        <div class="container">
+            <h2> Mesa pequena </h2>
+            <p> A classe .table-sm diminui a tabela cortando o preenchimento da célula pela metade: </p>
+            <table class="table table-bordered table-sm">
+                <thead>
+                    <tr>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Email </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          <!-- A classe adiciona uma barra de rolagem à mesa quando necessário
+             (quando é muito grande horizontalmente):.table-responsive-->
+        <div class="container">
+        <h2> Tabela responsiva </h2>
+        <p> A classe .table-responsive adiciona uma barra de rolagem à tabela quando necessário: </p>                                                                                      
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                <thead>
+                    <tr>
+                    <th>#</th>
+                    <th> Nome </th>
+                    <th> Sobrenome </th>
+                    <th> Idade </th>
+                    <th> Cidade </th>
+                    <th> País </th>
+                    <th> Sexo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    <th> Exemplo </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td> 1 </td>
+                    <td> Anna </td>
+                    <td> Pitt </td>
+                    <td> 35 </td>
+                    <td> Nova York </td>
+                    <td> EUA </td>
+                    <td> Mulher </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    <td> Sim </td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+        </div>   
+        <!-- ‎Você também pode decidir quando a tabela deve obter uma barra de rolagem,
+        dependendo da largura da tela:‎ classe‎	‎Largura da tela‎
+        .table-responsive-sm	‎< 576px‎
+        .table-responsive-md	‎< 768px‎
+        .table-responsive-lg	‎< 992px‎
+        .table-responsive-xl	‎< 1200px‎ -->    
+        <div class="container">
+            <h2> Tabela responsiva </h2>
+             <p> A classe .table-responsive-sm cria uma tabela responsiva que rola horizontalmente em telas com menos de 576 px de largura. </p>
+             <p> Redimensione a janela do navegador para ver o efeito. </p>
+             <div class="table-responsive-sm">          
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                        <th> # </th>
+                        <th> Nome </th>
+                        <th> Sobrenome </th>
+                        <th> Idade </th>
+                        <th> Cidade </th>
+                        <th> País </th>
+                        <th> Sexo </th>
+                        <th> Exemplo </th>
+                        <th> Exemplo </th>
+                        <th> Exemplo </th>
+                        <th> Exemplo </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td> 1 </td>
+                        <td> Anna </td>
+                        <td> Pitt </td>
+                        <td> 35 </td>
+                        <td> Nova York </td>
+                        <td> EUA </td>
+                        <td> Mulher </td>
+                        <td> Sim </td>
+                        <td> Sim </td>
+                        <td> Sim </td>
+                        <td> Sim </td>
+                        </tr>
+                    </tbody>
+                </table>
+             </div>
+        </div>
+    </body>
+</html>
